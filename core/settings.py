@@ -20,12 +20,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 STATIC_URL = '/static/'
-<<<<<<< HEAD
-=======
-STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'static'),
-)
->>>>>>> a050a2e5bd8b48512f5e9b7ffcade17b05d3c723
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
